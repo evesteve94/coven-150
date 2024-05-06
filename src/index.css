@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:transparent;
+  /* color: var(--text-color); */
+  font-family: "Sedan SC", serif;
+  line-height: 1.5;
+}
+
+:root {
+  /* Define your custom colors as CSS variables */
+  --primary-color: rgba(255, 240, 189, 0.87); /* Example primary color (blue) */
+  --secondary-color: rgba(241, 143, 7, 0.856); /* Example secondary color (gray) */
+  --accent-color: rgba(16, 95, 134, 1); /* Example accent color (yellow) */
+  --background-color:rgba(1, 9, 45, 0.495); /* Example background color */
+  --text-color: rgb(84, 80, 80); /* Example text color (dark gray) */
+}
+
+@font-face {
+  font-family: 'BoecklinsUniverse'; /* Name your font family */
+  src: url('./assets/fonts/BoecklinsUniverse.woff2') format('woff2'); /* Specify the path to your WOFF2 font file */
+
+  /* You can include additional font formats and their paths if necessary */
+  /* font-family: "ArtNouveau";
+  src: url('./assets/fonts/ArtNouveauCaps.woff2') format('woff2') */
+}
+
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body {
+  /* overflow: hidden; */
+  /* background-color: var(--primary-color); */
+
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 700px;
+  /* border: 1px solid rgb(79, 79, 138); */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+
+
+
+/* HEADER HEADER HEADER */
+header {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+  /* border-radius: 1rem; */
+  width: 100%;
+  padding: 1rem;
+
+}
+
+h1{
+  color: antiquewhite;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+h2, h3 {
+  color: var(--secondary-color);
+}
+
+/* MAIN MAIN MAIN */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.coven{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.info p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+a {
+  /* text-decoration: none; */
+  color: var(--secondary-color);
+}
+
+.poll {
+  font-size: 5rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+
+}
+
+/* FOOTER FOOTER FOOTER */
+footer {
+
+  width: 100%; /* Take the full width of the viewport */
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+}
+
+footer p {
+  color: antiquewhite;
+}
