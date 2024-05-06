@@ -20,7 +20,7 @@ function App() {
         <p className="text">
           That's right! Eva, Matilda, Pernilla, Saga & Sanne are having a
           final-day-of-summer-boat-bash. More information about time, food, and
-          other things will come soon. For now! Just RSVP by responing to the
+          other things will come soon. For now! Just RSVP by responding to the
           poll.
         </p>
         <div className="info">
