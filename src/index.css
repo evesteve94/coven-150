@@ -72,6 +72,16 @@ header {
 
 }
 
+.photo-div{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.photo-div img {
+  height: 4rem;
+}
+
 h1{
   color: antiquewhite;
   letter-spacing: 1px;

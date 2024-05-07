@@ -2,6 +2,11 @@ import Header from "./Header";
 import Footer from "./Footer";
 import coven from "./assets/coven.jpg";
 import { FaPoll, FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import eva from "./assets/eva.png";
+import saga from "./assets/saga.png";
+import pernilla from "./assets/pernilla.png";
+import sanne from "./assets/sanne.png";
+import mailda from "./assets/matilda.png";
 
 function App() {
   return (
@@ -11,6 +16,11 @@ function App() {
         <h2>Welcome To Our 150th Bday Bonanza!!</h2>
         <img className="coven" src={coven} alt="" />
         <h3>31st of August - SAVE THE DATE!</h3>
+        <h2>
+          <a target="blank" href="https://strawpoll.com/2ayLkxVrvZ4">
+            RSVP HERE
+          </a>
+        </h2>
         <p className="text">
           Five of your favourite witches are turning 30 this year! That calls
           for a celebration out at sea! Well almost! We have booked a docked
@@ -23,6 +33,13 @@ function App() {
           other things will come soon. For now! Just RSVP by responding to the
           poll.
         </p>
+        <div className="photo-div">
+          <img src={eva} alt="" />
+          <img src={saga} alt="" />
+          <img src={pernilla} alt="" />
+          <img src={sanne} alt="" />
+          <img src={mailda} alt="" />
+        </div>
         <div className="info">
           <p>
             Where? Studio Tin Tin{" "}
