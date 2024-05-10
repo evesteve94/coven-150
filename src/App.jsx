@@ -15,7 +15,10 @@ function App() {
       <main>
         <h2>Welcome To Our 150th Bday Bonanza!!</h2>
         <img className="coven" src={coven} alt="" />
-        <h3>31st of August - SAVE THE DATE!</h3>
+        <h3>
+          31st of August - SAVE THE DATE! <br />
+          RSVP BEFORE 31ST OF JULY
+        </h3>
         <h2>
           <a target="blank" href="https://strawpoll.com/2ayLkxVrvZ4">
             RSVP HERE
@@ -53,7 +56,10 @@ function App() {
           <p>When? 31st of August</p>
           <p>More information to come!</p>
         </div>
-        <h3>IMPORTANT INFO! CLICK THE LINK BELOW TO RSVP!</h3>
+        <h3>
+          IMPORTANT INFO! CLICK THE LINK BELOW TO RSVP! <br />
+          31st of July at the latest!
+        </h3>
         <a
           className="poll"
           target="blank"
