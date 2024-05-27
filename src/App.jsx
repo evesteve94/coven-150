@@ -54,6 +54,7 @@ function App() {
             </a>
           </p>
           <p>When? 31st of August</p>
+          <p>This is a child-free event</p>
           <p>More information to come!</p>
         </div>
         <h3>
