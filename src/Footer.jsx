@@ -5,7 +5,6 @@ const Footer = () => {
     <footer>
       <p>31st of August 2024</p>
       <p>Tin Tin Boat</p>
-      <p>RSVP PLEASE</p>
     </footer>
   );
 };
