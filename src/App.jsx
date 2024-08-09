@@ -1,7 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import coven from "./assets/coven.jpg";
-import { FaPoll, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import eva from "./assets/eva.png";
 import saga from "./assets/saga.png";
 import pernilla from "./assets/pernilla.png";
@@ -72,7 +71,7 @@ function App() {
           <br />
           Dresscode is whatever you feel comfortable and fabulous in! <br />{" "}
           <br />
-          We do not accept gifts but please bring a bottle of
+          If you want to bring a gift, please bring a bottle of
           cava/alcohol-free-bubbles/other-fancy-drink to share with everyone
           during the night!
         </p>
